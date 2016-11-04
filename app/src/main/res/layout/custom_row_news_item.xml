@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#E3F2FD"
+    android:id="@+id/next"
+    android:layout_margin="5dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mon, 24 Aug 2015 08:17:39 -0500"
+        android:id="@+id/date"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="القابضة لمياه الشرب : إيقاف 6 محطات بالجيزة بعد زيادة نسبة العكارة بالنيل"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:id="@+id/title"
+        android:layout_gravity="center"
+        android:gravity="right"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+
+        >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/smallpic"
+                android:src="@drawable/test"
+                android:layout_marginRight="5dp"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="أعلنت الشركة القابضة لمياه الشرب والصرف الصحى، استمرار رفع درجات الاستعداد والتأهب بكافة شركاتها التابعة للتعامل مع آثار الأحوال الجوية السيئة التي تعرضت لها البلاد"
+            android:id="@+id/desc"
+            android:layout_gravity="right"
+            android:paddingTop="5dp"
+            android:layout_weight="1"
+            android:layout_below="@+id/title"
+            />
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

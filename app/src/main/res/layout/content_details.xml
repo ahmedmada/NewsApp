@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.ahmed.newsapp.Details"
+    tools:showIn="@layout/activity_details">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:text="Mon, 24 Aug 2015 08:17:39 -0500"
+            />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="القابضة لمياه الشرب : إيقاف 6 محطات بالجيزة بعد زيادة نسبة العكارة بالنيل"
+                android:gravity="right"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/maintitle"
+                android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أعلنت الشركة القابضة لمياه الشرب والصرف الصحى، استمرار رفع درجات الاستعداد والتأهب بكافة شركاتها التابعة للتعامل مع آثار الأحوال الجوية السيئة التي تعرضت لها البلاد"
+            android:gravity="right"
+            android:id="@+id/maincontent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BY : author"
+            android:id="@+id/author"/>
+
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/webView"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
