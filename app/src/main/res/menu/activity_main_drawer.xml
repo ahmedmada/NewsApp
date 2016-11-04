@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="الاخبار"
+        android:checkable="false"
+        android:icon="@drawable/icon1"></item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/egy_news"
+            android:title="اخبار مصر	" />
+        <item
+            android:id="@+id/saudi_news"
+            android:title="اخبار السعودية" />
+        <item
+            android:id="@+id/emirates_news"
+            android:title="اخبار الامارات	" />
+        <item
+            android:id="@+id/arab_news"
+            android:title="اخبار الوطن العربي	" />
+        <item
+            android:id="@+id/world_news"
+            android:title="اخبار العالم	" />
+        <item
+            android:id="@+id/sports_news"
+            android:title="اخبار الرياضة" />
+        <item
+            android:id="@+id/arts_news"
+            android:title="اخبار الثقافة والفنون	" />
+        <item
+            android:id="@+id/science_news"
+            android:title="اخبار العلوم والتكنولوجيا	" />
+        <item
+            android:id="@+id/economy_news"
+            android:title="اخبار الاقتصاد	" />
+        <item
+            android:id="@+id/finny_news"
+            android:title="اخبار طريفة" />
+        <item
+            android:id="@+id/accidents_news"
+            android:title="اخبار الحوادث	" />
+        <item
+            android:id="@+id/repotrs"
+            android:title="تقارير وتحليلات	" />
+    </group>
+
+    <item android:title="موبايلات"
+        android:checkable="false"
+        android:icon="@drawable/icon2"></item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/mobiles_news"
+            android:title="اخبار الموبايلات" />
+    <item
+                android:id="@+id/new_mobiles"
+                android:title="احدث الموبايلات" />
+    <item
+                android:id="@+id/tablets_news"
+                android:title="اخبار الاجهزة اللوحية	" />
+    <item
+                android:id="@+id/mobile_apps"
+            android:title="تطبيقات الهواتف الذكية" />
+    </group>
+
+    <item android:title="سينما"
+        android:checkable="false"
+        android:icon="@drawable/icon3"></item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/cinema_news"
+            android:title="اخبار السينما	" />
+        <item
+            android:id="@+id/english_films"
+            android:title="احدث الافلام الاجنبية" />
+        <item
+            android:id="@+id/arab_films"
+            android:title="احدث الافلام العربية	" />
+        <item
+            android:id="@+id/watch"
+            android:title="شاهدت لك" />
+    </group>
+
+
+
+    <item android:title="الصحة"
+        android:checkable="false"
+        android:icon="@drawable/icon4"></item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/health_news"
+            android:title="أخبار الصحة	" />
+        <item
+            android:id="@+id/family_health"
+            android:title="صحة الأسرة" />
+        <item
+            android:id="@+id/psychological_health"
+            android:title="صحة نفسية" />
+        <item
+            android:id="@+id/digestive_health"
+            android:title="صحة هضمية" />
+        <item
+            android:id="@+id/men_health"
+            android:title="صحة الرجل" />
+        <item
+            android:id="@+id/agility"
+            android:title="رشاقة	" />
+        <item
+            android:id="@+id/plants"
+            android:title="نباتيات	" />
+        <item
+            android:id="@+id/women_health"
+            android:title="صحة المرأة" />
+        <item
+            android:id="@+id/alrernative_medicine"
+            android:title="الطب البديل	" />
+        <item
+            android:id="@+id/medicine_advice"
+            android:title="نصائح طبية" />
+
+    </group>
+
+
+
+
+
+
+    <item android:title="ركن البنات"
+        android:checkable="false"
+        android:icon="@drawable/icon5"></item>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/your_beauty"
+        android:title="جمالك	" />
+    <item
+        android:id="@+id/your_style"
+        android:title="اناقتك	" />
+    <item
+        android:id="@+id/sweet_home"
+        android:title="البيت السعيد" />
+    <item
+        android:id="@+id/maternity"
+        android:title="سنة أولى أمومة" />
+    </group>
+
+    <item android:title="النكت"
+        android:checkable="false"
+        android:icon="@drawable/icon6"></item>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/caricature"
+            android:title="كاريكاتير" />
+        <item
+            android:id="@+id/egy_jokes"
+            android:title="نكت مصرية" />
+        <item
+            android:id="@+id/abu_arab"
+            android:title="ركن ابو العربي" />
+        <item
+            android:id="@+id/funny_photo"
+            android:title="صور مضحكة" />
+        <item
+            android:id="@+id/bad_jokes"
+            android:title="نكت رخمة" />
+        <item
+            android:id="@+id/arab_jokes"
+            android:title="نكت عربية	" />
+        <item
+            android:id="@+id/fawazeer"
+            android:title="فوازير" />
+
+    </group>
+
+    <item android:title="أقوال مأثورة"
+        android:checkable="false"
+        android:icon="@drawable/icon7"></item>
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/arab_proverbs"
+        android:title="أمثال عربية	" />
+        <item
+        android:id="@+id/popular_like"
+        android:title="أمثال شعبية" />
+        <item
+        android:id="@+id/story_like"
+        android:title="قصة مثل	" />
+        <item
+        android:id="@+id/wisdom"
+        android:title="حكمة" />
+        <item
+        android:id="@+id/women_love"
+        android:title="المرأة والحب	" />
+        <item
+        android:id="@+id/celebrity_saying"
+        android:title="أقوال المشاهير" />
+        <item
+        android:id="@+id/peoples_like"
+        android:title="أمثال الشعوب" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/face"
+                android:icon="@drawable/facebook_logo"
+                android:title="facebook" />
+        </menu>
+    </item>
+
+</menu>
